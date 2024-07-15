@@ -1,1 +1,48 @@
+#1.print your name
+a="My name is Charan"
+print(a)
+
+# 2.single line comments
+'''multiline
+comments '''
+print("singleline comments & Multiline comments")
+
+# 3.data types
+#int
+a=10
+b=type(a)
+print("data type is : ",b)
+#float
+c=10.51
+d=type(c)
+print("data type is : ",d)
+#string
+e="string"
+f=type(e)
+print("data type is : ",f)
+#boolean
+g=True
+h=type(g)
+print("data type is : ",g)
+
+# 4.LOcal and Global Variables
+#local variable ,here we are using a variable inside a function
+def local_variable():
+    a=5
+    Print(a)
+local_variable()
+
+#global_variable
+a=5
+def global_variable():
+    print("global_variable :",a)
+global_variable()
+#modifying global variable
+def h():
+    global a
+    a=10
+    print(a)
+h()
+
+
 
